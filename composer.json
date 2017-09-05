@@ -1,0 +1,21 @@
+{
+    "name": "shaunr/cexio",
+    "description": "PHP library used to interact with the CEX.io API",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "curl/curl": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Shaun Reitan",
+            "email": "shaun.reitan@ndchost.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "ShaunR\\Cexio\\" : "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
